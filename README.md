@@ -6,7 +6,7 @@ Using Lazy.nvim:
 
 ```lua
 {
-    'yourusername/vue-marks.nvim',
+    'yimme/vue-marks.nvim',
     ft = {'vue'},
     config = function()
         require('vue-marks').setup()
