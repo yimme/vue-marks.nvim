@@ -23,6 +23,16 @@ Using Lazy.nvim:
   - `t` on `<template *>` tag
   - `c` on `<style *>` tag
 
+## Config
+
+```lua
+marks = {
+    script = 's' -- default mark for script tag
+    template = 't' -- default mark for template tag
+    style = 'c' -- default mark for style tag 
+},
+auto_mark = true -- Add marks automatically
+```
 
 ## Commands
 
